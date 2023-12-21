@@ -1998,6 +1998,7 @@ void Message_SetView(View* view) {
  * Draws the textbox in full and updates ocarina state
  */
 void Message_DrawMain(PlayState* play, Gfx** p) {
+    return;
     static s16 sOcarinaEffectActorIds[] = {
         ACTOR_OCEFF_WIPE3, ACTOR_OCEFF_WIPE2, ACTOR_OCEFF_WIPE,  ACTOR_OCEFF_SPOT,
         ACTOR_OCEFF_WIPE,  ACTOR_OCEFF_STORM, ACTOR_OCEFF_WIPE4,
